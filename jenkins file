@@ -1,0 +1,18 @@
+pipeline{
+     agent:any
+
+     stages {
+        stage ('build'){
+            steps{
+                sleep 05
+            }
+        } 
+     }
+     stages {
+        stage ('test'){
+            steps{
+                sleep 05
+            }
+        } 
+     }
+}
