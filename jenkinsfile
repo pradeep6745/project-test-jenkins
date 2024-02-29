@@ -5,19 +5,17 @@ pipeline {
         stage('build') {
             steps {
                 echo "hello world"
-                script {
                 
-                     {
-                          pwd 
-                          ls 
-                        echo "to check script "
-                    }
                     }
             }
         }
      stage('test') {
             steps {
-                 
+                script {
+                
+                     {
+                        echo "to check script "
+                    } 
                 echo "hello world test"
                 
             }    
