@@ -8,17 +8,15 @@ pipeline {
             }
         }
     }
-        
-       stage('test') {
-        steps {
+     stage('test') {
+     steps {
              '''
               echo "hello world'
              '''
         }
          }
-       
         stage('deploy') {
-            steps {
+        steps {
             '''
             sh sleep 05
             '''
