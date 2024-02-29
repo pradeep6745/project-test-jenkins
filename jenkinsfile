@@ -10,14 +10,18 @@ pipeline {
     }
         
        stage('test'){
+        steps {
              '''
               echo "hello world'
              '''
+        }
          }
        
         stage('deploy'){
+            steps {
             '''
             sh sleep 05
             '''
+            }
         }        
   }        
