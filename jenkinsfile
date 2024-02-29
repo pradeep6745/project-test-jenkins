@@ -10,7 +10,7 @@ pipeline {
      stage('test') {
             steps {
                 
-                sh sleep 05
+                pwd 
                 echo "hello world test"
                 
             }    
@@ -18,7 +18,7 @@ pipeline {
             stage('deploy') {
             steps {
                 
-                sleep 05
+                ls
                 echo "hello world deploy"
                 
         }
