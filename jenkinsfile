@@ -8,18 +8,16 @@ pipeline {
             }
         }
     } 
-      stages {
+    
         stage('test') {
             steps {
                 echo "hello world"
             }
-        }
+        
     }
-     stages {
-        stage('deploy') {
+            stage('deploy') {
             steps {
                 echo "hello world"
-            }
         }
     }    
   }        
