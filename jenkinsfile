@@ -6,9 +6,11 @@ pipeline {
             steps {
                 echo "hello world"
                 script {
-                    def browsers = ['chrome', 'firefox']
-                    for (int i = 0; i < browsers.size(); ++i) {
-                        echo "Testing the ${browsers[i]} browser"
+                
+                     {
+                          pwd 
+                          ls 
+                        echo "to check script "
                     }
                     }
             }
